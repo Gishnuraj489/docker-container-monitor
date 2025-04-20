@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+import docker
 from monitor import get_container_stats
 from utils import export_to_csv, export_to_json
 
